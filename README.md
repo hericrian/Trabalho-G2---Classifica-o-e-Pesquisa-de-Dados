@@ -26,7 +26,6 @@ class Jogo:
 ``` python
 class NoJogo:
         def __init__ (self, jogo):
-# inicializa o nó da árvore com um jogo, sem filhos inicialmente
         self.jogo = jogo
         self.esquerda = None
         self.direita = None
