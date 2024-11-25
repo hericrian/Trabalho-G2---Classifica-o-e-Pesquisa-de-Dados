@@ -1,19 +1,19 @@
 # Trabalho-G2---Classifica-o-e-Pesquisa-de-Dados
-Sistema de Gerenciamento de Jogos 🎮
-Este projeto implementa um sistema para gerenciar uma coleção de jogos, permitindo adicionar jogos, buscar por preço, faixa de preço e gênero. O sistema utiliza uma árvore binária de busca para organizar os jogos por preço e uma tabela hash para organizar os jogos por gênero.
+#Sistema de Gerenciamento de Jogos 🎮
+#Este projeto implementa um sistema para gerenciar uma coleção de jogos, permitindo adicionar jogos, buscar por preço, faixa de preço e gênero. O sistema utiliza uma árvore binária de busca para organizar os #jogos por preço e uma tabela hash para organizar os jogos por gênero.
 
-Estrutura do Código 🛠
-Classes Principais
-Jogo
-Representa um jogo com as seguintes propriedades:
+#Estrutura do Código 🛠
+#Classes Principais
+#Jogo
+#Representa um jogo com as seguintes propriedades:
 
-jogoId (ID único do jogo)
-titulo (Título do jogo)
-desenvolvedor (Desenvolvedor do jogo)
-preco (Preço do jogo)
+#jogoId (ID único do jogo)
+#titulo (Título do jogo)
+#desenvolvedor (Desenvolvedor do jogo)
+#preco (Preço do jogo)
 generos (Lista de gêneros associados ao jogo)
 
-class Jogo:
+'''class Jogo:
     def _init_(self, jogoId, titulo, desenvolvedor, preco, generos):
         self.jogoId = jogoId
         self.titulo = titulo
@@ -27,7 +27,7 @@ jogo (Referência a um objeto da classe Jogo)
 esquerda (Filho à esquerda)
 direita (Filho à direita)
 
-class NoJogo:
+'''class NoJogo:
     def _init_(self, jogo):
         self.jogo = jogo
         self.esquerda = None
@@ -40,7 +40,7 @@ inserir(jogo) - Insere um novo jogo na árvore.
 buscar_por_preco(preco) - Busca jogos por preço exato.
 buscar_por_faixa_de_preco(precoMinimo, precoMaximo) - Busca jogos dentro de uma faixa de preço.
 
-class ArvoreJogos:
+'''class ArvoreJogos:
     def _init_(self):
         self.raiz = None
     # Métodos para inserir e buscar jogos
@@ -51,7 +51,7 @@ Método principal:
 adicionar_jogo(jogo) - Adiciona um jogo aos gêneros correspondentes.
 obter_jogos(genero) - Retorna todos os jogos de um gênero específico.
 
-class HashGeneros:
+'''class HashGeneros:
     def _init_(self):
         self.generoParaJogos = {}
     # Métodos para adicionar jogos e buscar por gênero
@@ -63,7 +63,7 @@ Buscar jogos por preço exato.
 Buscar jogos dentro de uma faixa de preço.
 Buscar jogos por gênero.
 
-def menu():
+'''def menu():
     # Função que interage com o usuário
     # Chama os métodos da ArvoreJogos e HashGeneros conforme as escolhas do usuário
     
