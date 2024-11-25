@@ -1,4 +1,4 @@
-# Trabalho-G2---Classifica-o-e-Pesquisa-de-Dados
+
 # Sistema de Gerenciamento de Jogos 🎮
 #E ste projeto implementa um sistema para gerenciar uma coleção de jogos, permitindo adicionar jogos, buscar por preço, faixa de preço e gênero. O sistema utiliza uma árvore binária de busca para organizar os #jogos por preço e uma tabela hash para organizar os jogos por gênero.
 
@@ -13,7 +13,7 @@
 # preco (Preço do jogo)
 generos (Lista de gêneros associados ao jogo)
 
-'''
+'''py
 class Jogo:
     def _init_(self, jogoId, titulo, desenvolvedor, preco, generos):
         self.jogoId = jogoId
@@ -28,7 +28,7 @@ jogo (Referência a um objeto da classe Jogo)
 esquerda (Filho à esquerda)
 direita (Filho à direita)
 
-'''
+'''py
 class NoJogo:
     def _init_(self, jogo):
         self.jogo = jogo
