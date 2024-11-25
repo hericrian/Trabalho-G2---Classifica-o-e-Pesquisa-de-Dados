@@ -75,7 +75,7 @@ A função principal do programa oferece um menu interativo para o usuário real
 - Buscar jogos por gênero.
 
 #### Exemplo de Menu:
-plaintext
+``` python
 --- Menu de Operações ---
 1. Adicionar Jogo
 2. Buscar Jogo por preço
@@ -83,7 +83,7 @@ plaintext
 4. Buscar Jogo por gênero
 0. Sair
 
-
+```
 ### Detalhamento das Funcionalidades 📝
 #### Adicionar Jogo ➕
 O sistema permite adicionar jogos com os seguintes dados:
