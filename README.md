@@ -22,13 +22,14 @@ class Jogo:
         self.preco = preco
         self.generos = generos
 ```
-
-#### NoJogo
-Representa um nó na árvore binária de busca, armazenando um objeto da classe Jogo e links para os filhos à esquerda e à direita.
-- *jogo* (Referência a um objeto da classe Jogo)
-- *esquerda* (Filho à esquerda)
-- *direita* (Filho à direita)
-
+``` python
+#### class NoJogo:
+        def __init__ (self, jogo):
+# inicializa o nó da árvore com um jogo, sem filhos inicialmente
+        self.jogo = jogo
+        self.esquerda = None
+        self.direita = None
+```
 #### Código Exemplo:
 ``` python
 class NoJogo:
