@@ -13,7 +13,7 @@ Representa um jogo com as seguintes propriedades:
 - *generos* (Lista de gêneros associados ao jogo)
 
 #### Código Exemplo:
-python
+``` python
 class Jogo:
     def __init__(self, jogoId, titulo, desenvolvedor, preco, generos):
         self.jogoId = jogoId
@@ -21,7 +21,7 @@ class Jogo:
         self.desenvolvedor = desenvolvedor
         self.preco = preco
         self.generos = generos
-
+```
 
 #### NoJogo
 Representa um nó na árvore binária de busca, armazenando um objeto da classe Jogo e links para os filhos à esquerda e à direita.
