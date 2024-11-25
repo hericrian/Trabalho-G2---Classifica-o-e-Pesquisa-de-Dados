@@ -30,15 +30,7 @@ class NoJogo:
         self.esquerda = None
         self.direita = None
 ```
-#### Código Exemplo:
-``` python
-class NoJogo:
-    def __init__(self, jogo):
-        self.jogo = jogo
-        self.esquerda = None
-        self.direita = None
 
-```
 #### ArvoreJogos
 Gerencia uma árvore binária de busca de jogos, ordenando-os por preço.
 - *Métodos principais*:
