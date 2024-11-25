@@ -30,14 +30,14 @@ Representa um nó na árvore binária de busca, armazenando um objeto da classe 
 - *direita* (Filho à direita)
 
 #### Código Exemplo:
-python
+``` python
 class NoJogo:
     def __init__(self, jogo):
         self.jogo = jogo
         self.esquerda = None
         self.direita = None
 
-
+```
 #### ArvoreJogos
 Gerencia uma árvore binária de busca de jogos, ordenando-os por preço.
 - *Métodos principais*:
@@ -46,12 +46,12 @@ Gerencia uma árvore binária de busca de jogos, ordenando-os por preço.
   - buscar_por_faixa_de_preco(precoMinimo, precoMaximo) - Busca jogos dentro de uma faixa de preço.
 
 #### Código Exemplo:
-python
+``` python
 class ArvoreJogos:
     def __init__(self):
         self.raiz = None
     # Métodos para inserir e buscar jogos
-
+```
 
 #### HashGeneros
 Gerencia uma tabela hash (dicionário) que mapeia gêneros para jogos, permitindo buscar todos os jogos relacionados a um gênero específico.
@@ -60,13 +60,13 @@ Gerencia uma tabela hash (dicionário) que mapeia gêneros para jogos, permitind
   - obter_jogos(genero) - Retorna todos os jogos de um gênero específico.
 
 #### Código Exemplo:
-python
+``` python
 class HashGeneros:
     def __init__(self):
         self.generoParaJogos = {}
     # Métodos para adicionar jogos e buscar por gênero
 
-
+```
 ### Função menu
 A função principal do programa oferece um menu interativo para o usuário realizar as seguintes operações:
 - Adicionar um novo jogo.
