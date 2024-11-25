@@ -1,4 +1,4 @@
-# Trabalho-G2---Classificação-e-Pesquisa-de-Dados
+
 # Sistema de Gerenciamento de Jogos 🎮
 Este projeto implementa um sistema para gerenciar uma coleção de jogos, permitindo adicionar jogos, buscar por preço, faixa de preço e gênero. O sistema utiliza uma árvore binária de busca para organizar os jogos por preço e uma tabela hash para organizar os jogos por gênero.
 
